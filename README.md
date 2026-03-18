@@ -1,5 +1,5 @@
-## Alien-Invasion-Game
-# General Gameplay Overview:
+# Alien-Invasion-Game
+## General Gameplay Overview:
 - Player controls 1 rocket ships at the bottom center of the screen
 - Player can move left and right using arrow keys and shoot bullets using spacebar
 - When game starts, an alien fleet moves across and down the screen and the player has to destroy them all
