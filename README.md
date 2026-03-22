@@ -6,5 +6,9 @@
 - If the player destroys all the aliens, a new fleet appears that moves faster than the previous fleet. If any alien hits the player’s ship or reaches the bottom of the screen, the player loses a ship. If the player loses three ships, the game ends.
 
 ### Phase 1 Development:
-- Create a shift and implement moving left and right function using arrow keys and shooting function using spacebar
-- 
+- Create alien_invasion file for main game loop
+- Create settings file for storing information (game window, color, etc) about game
+- Create ship file to manage ship
+- Create bullet file to manage bullets fired from ship 
+- Implement moving left and right function using arrow keys and shooting function using spacebar
+
