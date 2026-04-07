@@ -18,3 +18,5 @@
 - Make the fleet move sideways and down until they all get shot down. Then, a new fleet will be created after that.
 - If an alien hits a ship or the ground, the ship will be destroyed and a new fleet will be created
 - Limit the number of ships the player can use and end the game when they run out of ships
+
+### NOTE: cmd to run game -> py -3.12 alien_invasion.py
