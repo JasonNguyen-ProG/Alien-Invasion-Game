@@ -19,6 +19,11 @@
 - If an alien hits a ship or the ground, the ship will be destroyed and a new fleet will be created
 - Limit the number of ships the player can use and end the game when they run out of ships
 
+### Phase 3 Development:
+- Add play button to start/restart game
+- Add feature where it speeds up when the player moves through a level
+- Implement scoring system
+
 ### NOTE: cmd to run game -> py -3.12 alien_invasion.py
 
 
