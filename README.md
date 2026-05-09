@@ -20,3 +20,6 @@
 - Limit the number of ships the player can use and end the game when they run out of ships
 
 ### NOTE: cmd to run game -> py -3.12 alien_invasion.py
+
+
+# CREDIT: Followed tutorial from "PYTHON CRASH COURSE, 3RD EDITION"
