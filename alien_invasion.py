@@ -20,7 +20,7 @@ class AlienInvasion:
         self.settings = Settings()
 
         # Set display
-        self.screen: pygame.Surface = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)    # Set game in full screen mode
+        self.screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)    # Set game in full screen mode
         self.settings.screen_width = self.screen.get_rect().width
         self.settings.screen_height = self.screen.get_rect().height
         pygame.display.set_caption("Alien Invasion")
@@ -49,7 +49,7 @@ class AlienInvasion:
                 self.ship.update()
                 self._update_bullets()
                 self._update_aliens()
-                
+
             self._update_screen()
             self.clock.tick(60)     # Makes sure loop runs exactly 60 times/sec
 
@@ -210,12 +210,13 @@ class AlienInvasion:
         # Check if any aliens have reached the bottom of the screen
         for alien in self.aliens.sprites():
             if alien.rect.bottom >= self.settings.screen_height:
-                # Treet this the same as if the ship got hit
+                # Treat this the same as if the ship got hit
                 self._ship_hit()
                 break
 
 # SUGGESTION: modify the aliens movement so each row moves opposite of each other
 # TODO: add a message after every time an alien hits the ship
+# TODO: use a space image for background
 
 if __name__=='__main__':
     # Make game instance, and run the game
